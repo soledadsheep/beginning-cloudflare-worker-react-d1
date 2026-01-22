@@ -1,0 +1,16 @@
+{
+	"name": "beginning-cloudflare-worker-react-d1",
+	"compatibility_date": "2025-10-08",
+	"main": "src/index.ts",
+	"upload_source_maps": true,
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_id": "3731c31b-ac7e-42dd-aec9-6f010a7fddc9",
+			"database_name": "d1-template-database"
+		}
+	],
+	"observability": {
+		"enabled": true
+	}
+}

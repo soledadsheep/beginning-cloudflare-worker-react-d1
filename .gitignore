@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnpm-debug.log
+
+# Build output
+dist/
+build/
+out/
+
+# Logs and temp
+*.log
+*.log.*
+tmp/
+temp/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+ehthumbs.db
+
+# Environment variables (nên ignore để bảo mật)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: ignore all hidden files if needed (không khuyến khích)
+# .*
+
+
+### Wrangler ###
+.wrangler/
+.env*
+!.env.example
+.dev.vars*
+!.dev.vars.example
+
+/package-lock.json
